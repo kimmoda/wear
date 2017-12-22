@@ -7,7 +7,7 @@ import { addColors, toggleClassColor, ClearFilterColors, addMaxPrice, addMinPric
  class Filters extends Component {
 
    getColors = () => {
-     fetch(`http://api.shopstyle.com/api/v2/colors?pid=uid3204-40024198-72`, {
+     fetch(`http://api.shopstyle.com/api/v2/colors?pid=uid3921-39182911-45`, {
        method: 'get'
      }).then(response => {
        return response.json()
