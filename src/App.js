@@ -24,7 +24,7 @@ class App extends Component {
     const colors = this.props.toggledFilterClass;
     const search = [this.props.inputValue];
     const constructedFilters = [...search, ...colors]
-    fetch(`http://api.shopstyle.com/api/v2/products?pid=uid3921-39182911-45&fts=${constructedFilters.join('+')}${priceFilter}&limit=50`, {
+    fetch(`https://api.shopstyle.com/api/v2/products?pid=uid3921-39182911-45&fts=${constructedFilters.join('+')}${priceFilter}&limit=50`, {
       method: 'get'
     }).then(response => {
       return response.json()
