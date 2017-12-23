@@ -88,7 +88,7 @@ class App extends Component {
         <header className="header">
           <Container className="header__container">
               <Row>
-                <Col xs="12" sm="8" md="3" lg="2">
+                <Col xs="12" sm="12" md="3" lg="2">
                   <div className="flex-center">
                     <Link to='/'>
                       <img className="logo__image" src={Logo}></img>
